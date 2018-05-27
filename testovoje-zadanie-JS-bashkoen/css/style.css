@@ -1,0 +1,18 @@
+.header, .footer{
+  padding: 20px;
+  text-align: center;
+  background-color: #add8e6;
+  margin: 0 auto;
+  width: 100%;
+  color: blue;
+}
+.left {
+  background-color: #f0e68c;
+  background-size: contain;
+  height: auto;
+}
+.background {
+  background-image: url(../img/images/ball.png);
+  background-position: right;
+  background-repeat: repeat-y;
+}
