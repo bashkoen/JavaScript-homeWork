@@ -32,7 +32,7 @@ if (gender == true) {
   }
 
 var ageNumber = parseInt(age);
-var day = age * 365;
+var day = ageNumber * 365;
 var afterFive = ageNumber + 5;
 
 var pension;
@@ -47,7 +47,7 @@ else {
 }
 
 alert('Ваше ФИО: ' + surname + ' ' + firstName + ' ' + nameFather + ' \n'
-+ 'Ваш возраст в годах: ' + age + ' \n'
++ 'Ваш возраст в годах: ' + ageNumber + ' \n'
 + 'Ваш возраст в днях: ' + day + ' \n'
 + 'через 5 лет вам будет: ' + afterFive + ' \n'
 + 'ваш пол: ' + youGender +' \n'
