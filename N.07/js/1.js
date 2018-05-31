@@ -1,6 +1,7 @@
-var words = prompt("Введите слово");
-function wordVerification(words) {
+function wordVerification() {
+    var words = prompt("Введите слово");
     var enterWords = words.match(/[ёуеыаоэяию]/igm).length;
-    console.log("Количество букв в \"" + words + "\" " + enterWords);
+    return enterWords;
 }
-wordVerification(words);
+
+console.log(wordVerification());
