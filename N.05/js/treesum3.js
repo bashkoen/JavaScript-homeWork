@@ -3,7 +3,6 @@ function treeSum(a) {
     var s = 0;
     for (var i=0; i < a.length; i++) {
       var v = a[i];
-      s = s + v;
       if (typeof v == 'object') {
        s = s + treeSum(v)
       }
