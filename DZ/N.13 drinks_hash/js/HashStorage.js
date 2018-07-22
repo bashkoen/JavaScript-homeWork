@@ -1,6 +1,13 @@
 "use strict"
 
-
+function HashStorage(addValue, getValue, deleteValue, getKeys) {
+this.addValue = addValue;
+addValue = function() {
+    var key;
+}
+};
+var drink1 = new HashStorage();
+/*
 function HashStorage() {
     this.storage = {};
     this.addValue = function(key, value) {
@@ -34,5 +41,5 @@ function enterNameDrink() {
     drinkStorage.name = prompt('введите названи напитка');
 }
 
-
+*/
 
