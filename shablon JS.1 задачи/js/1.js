@@ -7,4 +7,4 @@ function over2() {
 function over3() {
     var but = document.getElementById("over2");
     but.disabled = false;
-}
+} 
