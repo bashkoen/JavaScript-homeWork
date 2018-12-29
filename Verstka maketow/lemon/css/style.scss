@@ -1,0 +1,210 @@
+@font-face {
+    font-family: "light";
+    src: url(../fonts/Josefin_Sans/JosefinSans-Light.ttf);
+}
+@font-face {
+    font-family: "bold";
+    src: url(../fonts/Josefin_Sans/JosefinSans-Bold.ttf);
+}
+
+h5, h6 {
+    margin-top: 10px;
+    font-family: "Bold";
+}
+body {
+    background-color: #eaeaea;
+    color: #6c6c6c;
+    font-family: "light";
+}
+.container {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+.header__logo {
+    width: 382px;
+    height: 159px;
+    background-image: url(../img/images/logo_lemon.png);
+    margin: 0 auto;
+}
+.header__logo-small {
+    width: 103px;
+    height: 43px;
+    background-size: cover;
+    margin: 30px;
+}
+.header__menu {
+    background-color: #f8f8f8;
+   // height: 50px;
+}
+.shadow__box {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Параметры тени */
+    background-color: #f8f8f8;
+}
+.button__search {
+   color: #6c6c6c;
+   //border-color: null;
+   border-style: none;
+}
+.button__search:hover {
+    background-color: #f8f8f8;
+    border-style: none;
+}
+.photo-slider1, .photo-slider2, .photo-slider3 {
+    background-color: #f8f8f8;
+    //width: 1200px;
+   // height: 440px;
+    
+}
+
+.header__logo_carousel {
+    width: 240px;
+    height: 100px;
+    background-size: cover;
+    margin: 0;
+
+}
+.carousel__main {
+    text-align: left;
+    color: #6c6c6c;
+    width: 340px;
+}
+.carousel-caption {
+    margin-left: -85px;
+}
+.carousel__main_header-text {
+    color: #921026;
+    margin-top: 30px;
+}
+.carousel__main_text {
+    margin-top: 30px;
+}
+.carousel__main_button {
+    margin-top: 30px;
+}
+.carousel-control-prev-icon {
+    margin-left: -100px;
+}
+.carousel-control-next {
+    margin-right: -50px;
+}
+.main {
+   // height: 400px;
+    background-color: #ffffff;
+}
+.main__header_image1 {
+    background-image: url(../img/images/salad1.png);
+    background-size: inherit;
+    width: 324px;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.main__header_image2 {
+    background-image: url(../img/images/salad2.png);
+    background-size: inherit;
+    width: 324px;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.main__header_image3 {
+    background-image: url(../img/images/salad3.png);
+    background-size: inherit;
+    width: 324px;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.recipe__img {
+    background-image: url(../img/images/photo-recipe.png);
+    background-size: inherit;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 441px;
+}
+.button__align {
+    margin: 10px auto;
+    
+}
+.recipe__article {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.author-recipe__title {
+    background-image: url(../img/images/plate.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-color: rgba(255, 255, 255, 0.842);
+    width: 469px;
+    height: 413px;
+    margin: 0 auto;
+    
+}
+.author-recipe__footer_name {
+    margin-left: 40px;
+    padding-top: 8px;
+}
+
+.author-recipe__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 135px;
+}
+.button__recipe {
+    margin: 0;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin: -41px;
+    padding-bottom: 30px;
+}
+.author-recipe__photo-author {
+    background-image: url(../img/images/CarenPhoto.png);
+    height: 130px;
+    width: 130px;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    border-radius: 65px;
+
+}
+.block__recipe_cube {
+    height: 530px;
+}
+.recipe__text {
+   margin-right: 20px;
+   // height: 432px;
+}
+.autograph {
+    background-image: url(../img/images/CarenAut.png);
+    background-repeat: no-repeat;
+    height: 65px;
+    background-position-x: right;
+    margin-top: -30px;
+}
+.card__user_img {
+  float: left;
+  margin: 10px 10px 10px 10px;
+    border-radius: 28px;
+}
+.h5__color_blue {
+    color: #055555;
+}
+.carousel-indicators li {
+    border: #555555;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+.line {
+    height: 3px;
+    margin: 0 auto;
+    background-color: #dddddd;
+}
+.card__recipe_footer {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}

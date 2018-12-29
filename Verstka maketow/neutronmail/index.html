@@ -3,30 +3,31 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         
     </head>
       <body>
         
-            <div class="header">
+            <header class="header">
                 <div class="header__general-menu">
                     <div class="header__logo">
                         <a class="header__logotype">neutron<span>Mail</span></a>
                     </div>
                     <div class="header__menu">
-                        <a class="header__menu header__menu_bold">About</a>
-                        <a class="header__menu header__menu_bold">Security</a>
-                        <a class="header__menu header__menu_bold">Blog</a>
-                        <a class="header__menu header__menu_bold">Careers</a>
-                        <a class="header__menu header__menu_bold">Support</a>
-                        <a class="header__menu header__menu_bold">Donate</a>
+                        <a href="http://www.tut.by" class="header__menu_bold-menu">About</a>
+                        <a href="http://www.tut.by" class="header__menu_bold-menu">Security</a>
+                        <a href="http://www.tut.by" class="header__menu_bold-menu">Blog</a>
+                        <a href="http://www.tut.by" class="header__menu_bold-menu">Careers</a>
+                        <a href="http://www.tut.by" class="header__menu_bold-menu">Support</a>
+                        <a href="http://www.tut.by" class="header__menu_bold-menu">Donate</a>
                     </div>
-                    <div class="header__general-menu header__menu_login">
-                        <a class="header__general-menu header__menu_bold">Log In</a>
+                    <div class="header__menu_login">
+                        <a href="http://www.tut.by" class="icon"><i class="fas fa-sign-in-alt"></i></a>
+                        <a href="http://www.tut.by" class="header__menu_bold-menu header__menu_bold-menu-login">Log in</a>
                     </div>
-                    <div class="header__menu">
-                        <div class="header__menu button">Sing Up</div>
-                    </div>
+                        <a href="http://www.tut.by" class="button">Sing Up</a>
                 </div>
+
                 <div class="header__language">
                     <a href="http://www.tut.by" class="header__language header__menu_bold">English</a>
                     <div class="header__language header__menu_slash">/</div>
@@ -36,20 +37,88 @@
                     <div class="header__language header__menu_slash">/</div>
                     <a href="http://www.tut.by" class="header__language header__menu_bold">Polish</a>
                 </div>                                   
-            </div>
+            </header>
 
-             <section class="content">
+             <main class="main">
+                 <div class="main__content_background">
                 <div class="content__header">
                     <h1 class="content__header_header">Secure Email Communication</h1>
-                    <h2 class="content__header_header content__header_header-small">Based in Somewhere</h2>
+                    <h2 class="content__header_header content__header_header-small">Based in <a class="red_text">Somewhere</a></h2>
                     <div class="content__header_button">
-                        <a class="content__header_header content__header_button-button button">Create account</a>
-                        <a class="content__header_header content__header_button-apple button">a</a>
-                        <a class="content__header_header content__header_button-play button">p</a>
+                        <a href="http://www.tut.by" class="content__header_header content__header_button-button button">Create account</a>
+                        <a href="http://www.tut.by" class="content__header_header content__header_button-apple button"><i class="fab fa-apple fa-lg"></i></a>
+                        <a href="http://www.tut.by" class="content__header_header content__header_button-play button"><i class="fab fa-google-play fa-sm"></i></a>
                     </div>
                 </div>
+            </div>
+            </main>
 
-             </section>
+             <main class="main__content">
+                 
+                <div class="main__content_block">
+                    <div class="main__content_header">
+                        <div class="main__content_img"><img src="img/images/sq.png"></div>
+                            <div class="main__content_header-section">
+                                <div class="main__content_text-big">Swiss Privacy</div>
+                                <div class="main__content_text-medium">Data Security and Neutrality</div>
+                            </div>
+                    </div>
+                    <div class="main__content_body">
+                        <div class="main__content_text">NeutronMail is incorporated in Somewhere and 
+                            all our servers are located in Switzerland. This means all user data is 
+                            protected by strict Swiss privacy laws.</div>
+                    </div>  
+                    <div class="main__line_block"></div> 
+                </div>
+            
+                    <div class="main__content_block">
+                        <div class="main__content_header">
+                            <div class="main__content_img"><img src="img/images/lock.png"></div>
+                                <div class="main__content_header-section">
+                                    <div class="main__content_text-big">Double Encryption</div>
+                                    <div class="main__content_text-medium">Automatic Email Security</div>
+                                </div>
+                        </div>
+                        <div class="main__content_body">
+                            <div class="main__content_text">All emails are secured automatically with end-to-end encryption. 
+                                This means even we cannot decrypt and read your emails. As a result, your encrypted emails cannot
+                                be shared with third parties.</div>
+                        </div>   
+                        <div class="main__line_block2"></div> 
+                    </div>
+
+                    <div class="main__content_block">
+                            <div class="main__content_header">
+                                <div class="main__content_img"><img src="img/images/key.png"></div>
+                                    <div class="main__content_header-section">
+                                        <div class="main__content_text-big">Anonymous Email</div>
+                                        <div class="main__content_text-medium">Protect Your Privacy</div>
+                                    </div>
+                            </div>
+                            <div class="main__content_body">
+                                <div class="main__content_text">No personal information is required to create 
+                                    your secure email account. By default, we do not keep any IP logs which can 
+                                    be linked to your anonymous email account. Your privacy comes first.</div>
+                            </div>  
+                            <div class="main__line_block3"></div>  
+                        </div>
+                </main>
+
+                <main class="main__content">
+                    <div class="content__header">
+                        <div class="content__header_header-second">
+                            <a>Physical Security</a>
+                        </div>
+                        <h2 class="content__header_header-small content__header_header-small-second">NeutronMail's infrastructure resides in Europe's <a class="red_text">most secure </a>datacenter, underneath 1000 meters of solid rock.</h2>
+                    </div>
+                </main>
+                    
+                        <div class="main__content_block-second">
+                            <a>Learn more about our security features</a>
+                        </div>
+                    
+                    
+                
         
         
 
@@ -60,4 +129,5 @@
 
           <script src="js/1.js"></script>
       </body>
+      <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </html>

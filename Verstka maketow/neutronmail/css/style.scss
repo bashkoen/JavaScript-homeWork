@@ -10,29 +10,50 @@
     font-family: "regular";
     src: url(../fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
 }
+@font-face {
+    font-family: "semibold";
+    src: url(../fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf);
+}
 $grey: #6e6e6e;
-$violet: #5b4295;
-$lightViolet: #6276cc;
+$violet: #5f2e69;
+$lightViolet: #646c92;
 $red: #fc5a5d;
-
+/*body > * {
+    outline: 2px solid deeppink;
+}
+body > * > * {
+    outline: 2px dashed lime;
+    outline-offset: -2px;
+}
+body > * > * > * {
+    outline: 2px dotted dodgerblue;
+    outline-offset: -4px;
+}*/
 body {
     color: $grey;
     font-size: 1em;
     font-family: "light";
+    text-decoration: none;
 }
+
 h1 {
     font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+h2 {
+    margin: 0;
 }
 a {
     text-decoration: none;
-    color: $grey;
+   color: $grey;
 }
 .header {
-    width: 1000px;
-    height: 100px;;
+    width: 1200px;
+    height: 100px;
     margin: 0 auto;
     //display: flex;
-    justify-content: space-between;
+    //justify-content: space-between;
 }
 
 .header__logo {
@@ -55,12 +76,29 @@ a {
     float: left;
     display: flex;
     align-items: center;
-    a {
-        margin: 5px;
-        justify-content: center;
-    }
-    
+    width: 500px;  
 }
+.header__menu_login {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.button {
+    font-family: "bold";
+    float: right;
+    background: linear-gradient(45deg, $lightViolet, $violet);
+    border-radius: 20px;
+    color: white;
+    width: 90px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 7px 9px 0 rgba(100, 115, 151, 0.15), 0px 13px 21px 0 rgba(20, 80, 204, 0.27), 0px 13px 21px 0 rgba(0, 0, 0, 0.15), 0px 4px 16px 0 rgba(102, 145, 233, 0.33), 0px 4px 16px 0 rgba(0, 0, 0, 0.09), 0px 3px 9px 0 rgba(53, 103, 205, 0.09), 0px 3px 9px 0 rgba(0, 0, 0, 0.09), 0px 3px 3px 0 rgba(102, 145, 233, 0.09), 0px 3px 3px 0 rgba(0, 0, 0, 0.17);
+}
+
 .header__language {
     font-family: "light";
     width: 500px;
@@ -70,24 +108,37 @@ a {
     .header__logotype {
         font-size: 1.9em;
     }
-    .header__menu_bold {
-        
+    .header__menu_bold, .header__menu_bold-menu {
+        margin-right: 12px;
         float: none;
-        width: 55px;
+        width: 56px;
         text-align: center;
-        margin-right: 10px;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
+    .header__menu_bold-menu-login {
+        font-family: "bold";
+    }
+    
     .header__menu_bold:hover {
         font-family: "bold";
-        font-size: 0.9em;
-        border-bottom-style: solid;
+        text-decoration: underline;
         border-bottom-color: $grey;
         border-bottom-width: 1px;
         justify-content: center;
         align-items: center;
     }
+    .header__menu_bold-menu:hover {
+        font-family: "bold";
+        //font-size: 1em;
+        text-decoration: underline;
+        border-bottom-color: $grey;
+        border-bottom-width: 1px;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .header__menu_slash {
         border-bottom-style: none;
         width: 10px;
@@ -98,44 +149,139 @@ a {
         //border-bottom-style: none;
         border-bottom-width: 0px;
     }
+   
     span {
         color: $violet;
     }
-.button {
-    float: right;
-    background: linear-gradient(45deg, #5b4295, #6276cc);
-    border-radius: 20px;
-    color: white;
-    width: 90px;
-    height: 40px;
+
+.main {
+    width: 1200px;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
-.content {
-    width: 100%;
-    height: 500px;
-    background-size: cover;
-    background-image: url(../img/images/montain.jpg);
+.main__content_background {
+    background-image: url(../img/images/montain.png);
+   
+  //background-position-x: center;
+   // width: 100%;
+    //height: 665px;
+    //width: 1200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+ 
+   
 }
 .content__header {
+    margin: 0 auto;
+    //background-image: url(../img/images/montain.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
+    height: 480px;
+    width: 1200px;
+    
 }
 .content__header_header {
     align-content: space-around;
-    margin: 0;
+    //
 }
 .content__header_button {
     display: flex;
+    margin: 35px;
 }
 .content__header_button-button {
     width: 160px;
 }
 .content__header_button-apple, .content__header_button-play{
     width: 40px;
+}
+.red_text {
+    color: $red;
+}
+.icon {
+    margin: 14px;
+    color: $violet;
+}
+
+//59
+.main__content {
+    width: 1200px;
+   // height: 200px;
+    display: flex;
+    margin: 0 auto;
+
+}
+.main__line_block {
+    position: relative;
+    margin-top: -380px;
+    margin-left: 400px;
+
+    width: 1px;
+    height: 300px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-color: grey;
+    z-index: -1;
+}
+.main__line_block2 {
+    position: relative;
+    margin-top: -80px;
+    margin-left: 400px;
+    width: 1px;
+    height: 300px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-color: grey;
+    z-index: -1;
+}
+
+.main__content_block {
+    width: 380px;
+    margin: 20px;
+    
+}
+.main__content_header, .main__content_body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+}
+.main__content_header {
+    
+}
+.main__content_img {
+    margin: 15px;
+}
+
+.main__content_text-big {
+    //margin-top: 10px;
+    font-size: 1.6em;
+    line-height: 80%;
+    font-family: "semibold";
+}
+.main__content_text-medium {
+    font-size: 1.2em;
+}
+.content__header_header-second {
+    margin-left: -120px;
+    font-size: 3em;
+    font-family: "light";
+    width: 560px;
+    text-align: right;
+    
+}
+.content__header_header-small-second {
+    text-align: right;
+    font-size: 1.2em;
+    width: 560px;
+    line-height: 90%;
+    margin-left: -120px;
+}
+.main__content_block-second {
+    width: 280px;
+    height: 40px;
+    margin-top: -320px;
+    margin-left: 860px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
 }
