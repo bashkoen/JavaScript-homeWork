@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "JavaScript-homeWork"
+		},
+		{
+			"path": "C:\\JavaScript-homeWork",
+			"name": "JavaScript-homeWork"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JavaScript-homeWork"
+	}
+}
