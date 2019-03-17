@@ -1,10 +1,10 @@
-//получение данных id
-function over2() {
-    var but = document.getElementById("over2");
-    but.disabled = true;
-    //but.style = "color: red";
-}
-function over3() {
-    var but = document.getElementById("over2");
-    but.disabled = false;
-} 
+function rentalCarCost(d) {
+    var sum = 0;
+    var summday = 40;
+      if (d >= 7) {
+      sum = summday * d - 50;
+      }
+      if (d <= 3) {
+      sum = summday * d - 20;
+      }
+    }

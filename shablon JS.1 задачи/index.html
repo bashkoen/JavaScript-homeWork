@@ -4,10 +4,26 @@
         <meta charset="utf-8">
     </head>
       <body>
-          <input type="text" value="введите текст" id="over1">
-          <img src="img/photo-slider1.png" id="butt">
-          <input type="submit"  value="Нажми на меня!" id="over2" onclick="over2()">
-          <input type="submit"  value="Нажми на меня опять!" id="over3" onclick="over3()">
+            <body>
+                    <table id="age-table">
+                            <tr>
+                              <td>Ваш возраст:</td>
+                          
+                              <td>
+                                <label>
+                                  <input type="radio" name="age" value="young" checked> младше 18
+                                </label>
+                                <label>
+                                  <input type="radio" name="age" value="mature"> от 18 до 50
+                                </label>
+                                <label>
+                                  <input type="radio" name="age" value="senior"> старше 60
+                                </label>
+                              </td>
+                            </tr>
+                          
+                          </table>
+                          <input type="button" value = "нажми" onclick = "sub()">
           
           <script src="js/1.js"></script>
       </body>
