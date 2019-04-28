@@ -12,7 +12,8 @@ h5, h6 {
 body {
   background-color: #eaeaea;
   color: #6c6c6c;
-  font-family: "light"; }
+  font-family: "light";
+  font-size: 0.9em; }
 
 .container {
   margin-top: 50px;
@@ -188,9 +189,13 @@ body {
   margin: 0 auto;
   background-color: #dddddd; }
 
-.card__recipe_footer {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto; }
+.icons {
+  text-align: right; }
+
+.icons i {
+  margin-left: 10px; }
+
+.text_align_center {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
