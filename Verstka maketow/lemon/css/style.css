@@ -13,7 +13,7 @@ body {
   background-color: #eaeaea;
   color: #6c6c6c;
   font-family: "light";
-  font-size: 0.9em; }
+  font-size: 0.8em; }
 
 .container {
   margin-top: 50px;
@@ -196,6 +196,118 @@ body {
   margin-left: 10px; }
 
 .text_align_center {
-  text-align: center; }
+  text-align: center;
+  margin: 10px auto; }
+
+.card_recipe_p {
+  margin: 10px auto; }
+
+.img_recipe1_small {
+  background-image: url(../img/images/salad_mini.jpg);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 45px; }
+
+.img_recipe2_small {
+  background-image: url(../img/images/salad_mini2.jpg);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 45px; }
+
+.img_recipe3_small {
+  background-image: url(../img/images/salad_mini3.jpg);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 45px; }
+
+.recipe_small_text {
+  font-size: 0.8em; }
+
+.button__recipe_mini {
+  justify-content: right; }
+
+.card-columns {
+  width: 900px;
+  margin: 0 auto; }
+  .card-columns .card {
+    border-radius: 0px;
+    width: 240px;
+    margin: 27px; }
+
+.white_button {
+  float: right;
+  margin: 20px auto; }
+
+.img_persent_1 {
+  background-image: url(../img/images/19persent.png);
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px; }
+
+.img_persent_2 {
+  background-image: url(../img/images/65persent.png);
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px; }
+
+.img_persent_3 {
+  background-image: url(../img/images/50persent.png);
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px; }
+
+.tags_body {
+  margin: 10px auto;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  line-height: 2em; }
+
+.calendar_header {
+  text-align: -webkit-center;
+  margin: 10px auto; }
+
+.calendar_body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.calendar_body_name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: underline; }
+
+.line2 {
+  height: 3px;
+  margin: 0 auto;
+  background-color: #ffffff; }
+
+h2 {
+  color: red; }
+
+.paragraph {
+  margin: 15px auto;
+  display: block; }
+
+.background_popular_now {
+  background-size: cover;
+  background-image: url(../img/images/coffee.png);
+  height: 360px; }
+
+.timeline_body .timeline_body_img1 {
+  background-position: bottom;
+  background-image: url(../img/images/easy.png);
+  background-repeat: no-repeat;
+  height: 200px; }
+.timeline_body .timeline_body_img2 {
+  background-position: bottom;
+  background-image: url(../img/images/middle.png);
+  background-repeat: no-repeat;
+  height: 200px; }
+.timeline_body .timeline_body_img3 {
+  background-position: bottom;
+  background-image: url(../img/images/long.png);
+  background-repeat: no-repeat;
+  height: 200px; }
 
 /*# sourceMappingURL=style.css.map */
