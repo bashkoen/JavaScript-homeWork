@@ -119,10 +119,13 @@ body {
 }
 .recipe__img {
     background-image: url(../img/images/photo-recipe.png);
-    background-size: inherit;
+    //background-size: inherit;
     background-repeat: no-repeat;
-    width: 550px;
-    height: 441px;
+   //@at-root width: 550px;
+   // height: 441px;
+    //margin: 0 auto;
+    background-size: cover;
+    height: 300px;
 }
 .button__align {
     margin: 10px auto;
@@ -145,6 +148,9 @@ body {
 .author-recipe__footer_name {
     margin-left: 40px;
     padding-top: 8px;
+}
+.margin_0 {
+    margin: 0;
 }
 
 .author-recipe__text {
@@ -342,4 +348,43 @@ h2 {
 }
 .margin_5px {
     margin: 5px;
+}
+
+.sing_in_text {
+    color: blue;
+    text-decoration: underline;
+}
+.box_text {
+    background-color: #f6f6f6;
+}
+.button_post {
+    background-color: #555555;
+    color: #ffffff;
+}
+.margin_footer {
+    margin-block-end: 20px;
+}
+.post_a_comment {
+    height: 200px;;
+}
+.margin_25 {
+    margin-top: 25px;
+}
+.post p{
+    margin: 0;
+}
+.comment_post {
+    color: #629494;
+}
+.text_underline {
+    text-decoration: underline;
+}
+.salad_comments {
+    background-image: url(../img/images/lambda.png);
+    width: 29px;
+    height: 29px;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 278px;
 }
