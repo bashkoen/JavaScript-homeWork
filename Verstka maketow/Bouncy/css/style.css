@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "light";
+  src: url(../fonts/Open_Sans/OpenSans-Light.ttf); }
+body {
+  font-family: "light";
+  font-size: 0.9em; }
+
+h4 {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.header {
+  background-image: url(../img/header_background.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  background-position: top center; }
+
+.header_menu {
+  padding: 35px; }
+
+.header_text {
+  height: 550px; }
+
+.cursor {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: 0 auto;
+  border-radius: 16px; }
+
+.cursor_down {
+  background: url(../img/down.png); }
+
+.cursor_down:hover {
+  background: url(../img/down_active.png); }
+
+.block_margin {
+  margin: 50px; }
+
+.about_us_img {
+  background-image: url(../img/ipad.png);
+  display: block;
+  height: 283px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 55%; }
+
+.btn {
+  border-radius: 65px;
+  width: 130px;
+  font-size: 0.9em; }
+
+.icons {
+  display: block;
+  width: 53px;
+  height: 53px;
+  margin: 0 auto;
+  border-radius: 27px; }
+
+.icons_heart {
+  background: url(../img/heart.png); }
+
+.icons_heart:hover {
+  background: url(../img/heart_active.png); }
+
+.icons_mouse {
+  background: url(../img/mouse.png); }
+
+.icons_mouse:hover {
+  background: url(../img/mouse_active.png); }
+
+.icons_lamp {
+  background: url(../img/lamp1.png); }
+
+.icons_lamp:hover {
+  background: url(../img/lamp_active.png); }
+
+/*# sourceMappingURL=style.css.map */
