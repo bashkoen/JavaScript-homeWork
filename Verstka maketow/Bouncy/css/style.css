@@ -5,9 +5,13 @@ body {
   font-family: "light";
   font-size: 0.9em; }
 
-h4 {
-  margin-top: 30px;
-  margin-bottom: 30px; }
+section {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+h4, h5 {
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .header {
   background-image: url(../img/header_background.png);
@@ -75,5 +79,47 @@ h4 {
 
 .icons_lamp:hover {
   background: url(../img/lamp_active.png); }
+
+.about_us_details {
+  background-color: #f3f3f3; }
+
+.featured_projects_body {
+  width: 1240px;
+  display: flex; }
+
+.featured_projects_body_logo {
+  background-image: url(../img/whiskey.png);
+  background-repeat: no-repeat;
+  height: 317px;
+  width: 578px; }
+
+.featured_projects_body_vintage {
+  background-image: url(../img/vintage.png);
+  background-repeat: no-repeat;
+  width: 335px;
+  height: 317px; }
+
+.featured_projects_body_vintage:hover {
+  background-image: url(../img/vintage2.png); }
+
+.featured_projects_body_branding {
+  background-image: url(../img/branding.png);
+  background-repeat: no-repeat;
+  height: 317px;
+  width: 335px; }
+
+.featured_projects_body_branding:hover {
+  background-image: url(../img/branding2.png); }
+
+.featured_line {
+  background-image: url(../img/featured_line.png);
+  width: 1240px;
+  height: 103px; }
+
+.featured_line_text {
+  color: #f3f3f3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
