@@ -1,33 +1,40 @@
-
 @font-face {
     font-family: "light";
     src: url(../fonts/Open_Sans/OpenSans-Light.ttf);
 }
+
 body {
     font-family: "light";
     font-size: 0.9em;
 }
+
 section {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-h4, h5 {
+
+h4,
+h5 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .header {
     background-image: url(../img/header_background.png);
-width: 100%;
-background-repeat: no-repeat;
-color: white;
-background-position: top center;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: top center;
 }
+
 .header_menu {
     padding: 35px;
 }
+
 .header_text {
     height: 550px;
 }
+
 .cursor {
     display: block;
     width: 36px;
@@ -35,33 +42,38 @@ background-position: top center;
     margin: 0 auto;
     border-radius: 16px;
 }
+
 .cursor_down {
     background: url(../img/down.png);
-    
+
 }
+
 .cursor_down:hover {
-   background: url(../img/down_active.png);
+    background: url(../img/down_active.png);
 }
 
 .block_margin {
     margin: 50px;
 }
+
 .about_us_img {
     background-image: url(../img/ipad.png);
     display: block;
     height: 283px;
     background-repeat: no-repeat;
     //width: 80%;
-   // margin: 0 auto;
+    // margin: 0 auto;
     //background-position-x: center;
     background-position-x: center;
     background-size: 55%;
 }
+
 .btn {
     border-radius: 65px;
     width: 130px;
     font-size: 0.9em;
 }
+
 .icons {
     display: block;
     width: 53px;
@@ -69,32 +81,41 @@ background-position: top center;
     margin: 0 auto;
     border-radius: 27px;
 }
+
 .icons_heart {
     background: url(../img/heart.png);
 }
+
 .icons_heart:hover {
     background: url(../img/heart_active.png);
 }
+
 .icons_mouse {
     background: url(../img/mouse.png);
 }
+
 .icons_mouse:hover {
     background: url(../img/mouse_active.png);
 }
+
 .icons_lamp {
     background: url(../img/lamp1.png);
 }
+
 .icons_lamp:hover {
     background: url(../img/lamp_active.png);
 }
+
 .about_us_details {
     background-color: #f3f3f3;
 }
+
 .featured_projects_body {
     width: 1240px;
     display: flex;
-//flex-wrap: wrap;
+    //flex-wrap: wrap;
 }
+
 .featured_projects_body_logo {
     background-image: url(../img/whiskey.png);
     background-repeat: no-repeat;
@@ -103,33 +124,38 @@ background-position: top center;
     //background-size: 90%;
     //background-size: cover;
 }
+
 .featured_projects_body_vintage {
     background-image: url(../img/vintage.png);
     background-repeat: no-repeat;
     width: 335px;
     height: 317px;
 }
+
 .featured_projects_body_vintage:hover {
     background-image: url(../img/vintage2.png);
 }
+
 .featured_projects_body_branding {
     background-image: url(../img/branding.png);
     background-repeat: no-repeat;
     height: 317px;
     width: 335px;
 }
+
 .featured_projects_body_branding:hover {
     background-image: url(../img/branding2.png);
 }
+
 .featured_line {
     background-image: url(../img/featured_line.png);
     width: 1240px;
     height: 103px;
+    // align-self: center;
 }
+
 .featured_line_text {
-   // margin: 41px auto;
+
     color: #f3f3f3;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
 }

@@ -9,7 +9,8 @@ section {
   padding-top: 20px;
   padding-bottom: 20px; }
 
-h4, h5 {
+h4,
+h5 {
   margin-top: 20px;
   margin-bottom: 20px; }
 
@@ -117,9 +118,6 @@ h4, h5 {
   height: 103px; }
 
 .featured_line_text {
-  color: #f3f3f3;
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  color: #f3f3f3; }
 
 /*# sourceMappingURL=style.css.map */
